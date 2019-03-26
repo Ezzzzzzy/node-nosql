@@ -60,7 +60,7 @@ exports.findOne = (req, res) => {
 }
 
 // Update a note identified by the noteId in the request
-exports.update = (req, res) => (){()
+exports.update = (req, res) => {
     // Validate Request
     if(!req.body.content) {
         return res.status(400).send({
